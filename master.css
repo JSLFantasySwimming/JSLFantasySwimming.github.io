@@ -1,3 +1,32 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+hr {
+  border-color: blue;
+  width: 90%;
+}
+
+table, td, tr, th {
+  border: solid;
+  border-collapse: collapse;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+}
+
+.titleText {
+  text-align: center;
+  font-size: 30px;
+}
+
+.notTitleText {
+  background-color: #10223f;
+  padding: auto 0px;
+}
+
+.hidden {
+  display: none;
+}
