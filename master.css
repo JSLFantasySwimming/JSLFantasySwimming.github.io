@@ -1,20 +1,45 @@
+html {
+  background-color: #323232;
+  color: darkblue;
+  border: darkblue;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 hr {
-  border-color: blue;
+  border-color: darkblue;
   width: 90%;
 }
 
 table, td, tr, th {
   border: solid;
   border-collapse: collapse;
+  padding: 5px auto;
 }
 
 table {
   width: 90%;
   margin: auto;
+}
+
+button {
+  color: darkblue;
+  margin: auto 10px;
+  font-size: 20px;
+  background-color: inherit;
+  border-width: thick;
+  border: solid;
+}
+
+button:hover {
+   border-color: #4E4E4E;
+   color: #4E4E4E;
 }
 
 .titleText {
@@ -23,8 +48,9 @@ table {
 }
 
 .notTitleText {
-  background-color: #10223f;
+  /*background-color: #2ac8d3;*/
   padding: auto 0px;
+  text-align: center;
 }
 
 .hidden {

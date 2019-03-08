@@ -12,17 +12,16 @@
     <hr>
     <div class="buttons">
       <button type="draftButton" name="button" onclick="draftButtonClick()">Draft</button>
-      <button type="teamsButton" name="button">Teams</button>
-      <button type="standingsButton" name="button">Standings</button>
+      <button type="teamsButton" name="button" onclick="teamsButtonClick()">Teams</button>
+      <button type="standingsButton" name="button" onclick="standingsButtonClick()">Standings</button>
     </div>
   </div>
   <div class="notTitleText">
-    <div class="content" class="hidden" class="draft">
+    <div class="draft" class="hidden">
       <h2>Draft</h2>
       <p>TBD</p>
     </div>
-
-    <div class="content" class="hidden" class="teams">
+    <div class="teams" class="hidden">
       <h2>Teams</h2>
       <table>
         <th colspan="6">Team 1</th>
@@ -52,6 +51,7 @@
         </tr>
       </table>
       <br>
+      <br>
       <table>
         <th colspan="6">Team 2</th>
         <tr>
@@ -79,6 +79,7 @@
           <td></td>
         </tr>
       </table>
+      <br>
       <br>
       <table>
         <th colspan="6">Team 3</th>
@@ -108,6 +109,7 @@
         </tr>
       </table>
       <br>
+      <br>
       <table>
         <th colspan="6">Team 4</th>
         <tr>
@@ -135,6 +137,7 @@
           <td></td>
         </tr>
       </table>
+      <br>
       <br>
       <table>
         <th colspan="6">Team 5</th>
@@ -164,8 +167,7 @@
         </tr>
       </table>
     </div>
-
-    <div class="content" class="hidden" class="standings">
+    <div class="standings" class="hidden">
       <h2>Standings</h2>
       <p>TBD</p>
     </div>
