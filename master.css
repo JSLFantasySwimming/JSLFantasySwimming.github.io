@@ -1,7 +1,7 @@
 html {
   background-color: #323232;
-  color: darkblue;
-  border: darkblue;
+  color: darkgreen;
+  border: darkgreen;
 }
 
 body {
@@ -13,14 +13,14 @@ h2 {
 }
 
 hr {
-  border-color: darkblue;
+  border-color: darkgreen;
   width: 90%;
 }
 
 table, td, tr, th {
   border: solid;
   border-collapse: collapse;
-  padding: 5px auto;
+  padding: 10px auto;
 }
 
 table {
@@ -29,7 +29,7 @@ table {
 }
 
 button {
-  color: darkblue;
+  color: darkgreen;
   margin: auto 10px;
   font-size: 20px;
   background-color: inherit;
